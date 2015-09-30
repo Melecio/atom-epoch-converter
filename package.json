@@ -2,10 +2,13 @@
   "name": "epoch-converter",
   "main": "./lib/epoch-converter",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Unix Epoch converter for Atom editor",
   "keywords": [
+    "epoch",
+    "unix",
+    "time"
   ],
-  "repository": "https://github.com/atom/epoch-converter",
+  "repository": "https://github.com/Melecio/atom-epoch-converter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

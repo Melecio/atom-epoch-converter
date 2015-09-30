@@ -1,5 +1,5 @@
 module.exports =
-  activate: (state) ->
+  activate: ->
     atom.commands.add 'atom-text-editor', 'epoch-converter:UTC', => @convert("utc")
     atom.commands.add 'atom-text-editor', 'epoch-converter:UTC-replace', => @convert('utc-replace')
     atom.commands.add 'atom-text-editor', 'epoch-converter:date-string', => @convert('date-string')
