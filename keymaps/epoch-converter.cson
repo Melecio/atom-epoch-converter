@@ -1,0 +1,16 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+'atom-text-editor':
+  'ctrl-alt-e i': 'epoch-converter:ISO'
+  'ctrl-alt-e d': 'epoch-converter:date-string'
+  'ctrl-alt-e u': 'epoch-converter:UTC'
+  'ctrl-alt-e ctrl-d': 'epoch-converter:date-string-replace'
+  'ctrl-alt-e ctrl-i': 'epoch-converter:ISO-replace'
+  'ctrl-alt-e ctrl-u': 'epoch-converter:UTC-replace'
